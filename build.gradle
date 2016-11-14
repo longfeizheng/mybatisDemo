@@ -1,0 +1,25 @@
+group 'test.mybatis'
+version '1.0-SNAPSHOT'
+
+apply from: "${rootDir}/gradle/dependencies.gradle"
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile "log4j:log4j:${log4jVersion}"
+    compile "org.mybatis:mybatis:${mybatisVersion}"
+    compile "mysql:mysql-connector-java:${mysqlVersion}"
+    compile "junit:junit:${junitVersion}"
+    compile "org.mybatis:mybatis-spring:${mybatisSpringVersion}"
+}

@@ -1,0 +1,14 @@
+ext {
+    //gradle
+    gradleVersion = '2.5'
+    //junit
+    junitVersion = '4.12'
+    //log4j
+    log4jVersion = '1.2.16'
+    //mybatis
+    mybatisVersion = '3.2.6'
+    //mysql驱动
+    mysqlVersion = '5.1.18'
+    //mybatis-spring
+    mybatisSpringVersion = '1.3.0'
+}
