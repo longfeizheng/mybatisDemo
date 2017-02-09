@@ -1,5 +1,5 @@
 # mybatisDemo
-mybatis demo
+mybatis Simpledemo
 
 初始化sql:\mybatistest\src\main\resources\sql\init.sql
 
