@@ -5,3 +5,4 @@ mybatis Simpledemo  
 修改jdbc.properties
 
 运行UserMapperTest
+good luck o(*￣▽￣*)ブ
